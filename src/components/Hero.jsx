@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import Me from '../assets/me.jpg';
+import me from '../assets/me.png';
 import Typed from 'typed.js';
 import { useEffect, useRef } from "react";
 
@@ -45,7 +45,7 @@ const Hero = () => {
             </div>
           </div>
           <div className='relative lg:w-[30%] w-full flex justify-center items-center h-full animate-Profile'>
-            {/* <img src={Me} className="w-full lg:max-w-[300px] max-w-[260px] z-0 mx-auto" alt="profile" /> */}
+            <img src={me} className="w-full lg:max-w-[300px] max-w-[260px] z-0 rounded-full mx-auto" alt="profile" />
             <div className='max-w-[300px] w-[60%] h-[50%] max-h-[300px] mx-auto absolute z-[-10] top-[40%] left-[30%] rounded-full bg-[#8b7db8] shadow-sm blur-[70px]'></div>
             <div className='max-w-[300px] w-[60%] h-[50%] max-h-[300px] mx-auto absolute z-[-10] top-[10%] left-[0%] rounded-full bg-[#65eb5e] shadow-sm blur-[70px]'></div>
           </div>

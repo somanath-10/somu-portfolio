@@ -137,7 +137,10 @@ const technologies = [
     name : "Linux",
     icon : linux
   },
- 
+ {
+  name:"Typescript",
+  icon:typescript
+ },
 
  
   {
