@@ -54,7 +54,7 @@ const About = () => {
       <motion.div
         variants={fadeIn("", "", 0.1, 1)}
         className=" bg-black-100 p-8 rounded-2xl max-w-[360px]  min-h-[40px] flex justify-center items-center gap-2 cursor-pointer mt-4 "
-        onClick={() => window.open("https://drive.google.com/file/d/1gBBcy9HIJBJ9dqwcMbDdp8NBWdWBG2ez/view?usp=sharing", "_blank")}
+        onClick={() => window.open("https://drive.google.com/file/d/1yImBKYMCCz7tevqoVXzY2UngHvt59XJ_/view", "_blank")}
       >
         <h3 className="text-white text-[18px] font-bold text-center">
           Check Out My Resume!!

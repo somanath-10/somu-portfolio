@@ -40,8 +40,10 @@ import code from './code.png';
 import nitap from './nitap.png';
 import thinkLogic from './ThinkLogic.jpg';
 import logo1 from './logo1.png'
+import image1 from './image1.png'
 
 export {
+  image1,
   logo1,
   logo,
   creator,

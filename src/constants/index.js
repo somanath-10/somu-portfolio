@@ -34,6 +34,7 @@ import {
   bootstrap,
   postman,
   bash,
+  image1,
 } from "../assets";
 
 export const navLinks = [
@@ -164,15 +165,14 @@ const experiences = [
     ],
   },
   {
-    title: "Front-end  Mobile Developer",
+    title: "Front-end Developer",
     company_name: "National Institute of Technology, Andhra Pradesh",
     icon: nitap,
     iconBg: "#e1e1e3",
     date: "May 2024 - July 2024",
     points: [
-      "Developed an official cross-platform mobile application for the College Hostel Management System, serving a user base of 2,500 students across the campus.",
-      "Leading full-stack development with React Native, Node.js, and Express.js.",
-      "Managing databases with PostgreSQL and Prisma ORM.",
+      "Developed an official cross-platform web application for the College Hostel Management System, serving a user base of 2,500 students across the campus.",
+      "Member in development team with React, Node.js, and Express.js.",
       "Implemented features: Dynamic Hostel Room Booking, Outing Applications, Mess Feedback, Hostel Complaints, and Daily Attendance.",
       "Implemented user authentication and authorization for three different account types using JWT and cookies.",
       "Using GitHub for version control and project management.",
@@ -181,6 +181,34 @@ const experiences = [
 ];
 
 const projects = [
+
+    {
+    name: "Code Quest",
+    description:
+      "Architected and deployed a secure Q&A platform with Google and phone login, OTP-based auth flow, JWT sessions, and a password reset system with one-time daily usage limits and custom password generator logic.A scalable public interaction system with image/video uploads, likes, comments, and posting quotas that scalebased on the user’s friend graph",
+    tags: [
+      {
+        name: "mern",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "razorpay",
+        color: "blue-text-gradient",
+      },
+   
+    ],
+    image: image1,
+    live_link: "https://codequest-iota.vercel.app/",
+    source_code_link: "https://github.com/somanath-10/codequest",
+  },
 
   {
     name: "StudyNotion",
